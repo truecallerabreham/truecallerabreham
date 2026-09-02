@@ -38,9 +38,9 @@ I like taking ambiguous problems, turning them into working systems, and then ma
 
 ### Research in Progress
 
-**[Efficient InkubaLM for Edge and Mobile Inference](https://huggingface.co/Lelapa-AI/InkubaLM-0.4B)**  eaarly stage***BUILDING PHASE***Independent research on redesigning InkubaLM's attention architecture (LLaMA → DeepSeek Multi-head Latent Attention) for fast on-device inference while preserving low-resource language knowledge through knowledge distillation.
+**[Efficient InkubaLM for Edge and Mobile Inference](https://huggingface.co/Lelapa-AI/InkubaLM-0.4B)**  eaarly stage ***BUILDING PHASE*** Independent research on redesigning InkubaLM's attention architecture (LLaMA → DeepSeek Multi-head Latent Attention) for fast on-device inference while preserving low-resource language knowledge through knowledge distillation.
 
-**[LLM-Powered Android Keyboard](https://developer.android.com/)** Early-stage***BUILDING PHASE*** experimentation on whether a small on-device language model can provide useful contextual next-word prediction within mobile compute, memory, latency, and battery constraints.
+**[LLM-Powered Android Keyboard](https://developer.android.com/)** Early-stage ***BUILDING PHASE***  experimentation on whether a small on-device language model can provide useful contextual next-word prediction within mobile compute, memory, latency, and battery constraints.
 
 ---
 
