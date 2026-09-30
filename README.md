@@ -10,6 +10,24 @@ I like taking ambiguous problems, turning them into working systems, and then ma
 
 ---
 
+### Open Source Contributions
+
+| Repository | Stars | Pull Request | Description |
+| :--- | :---: | :--- | :--- |
+| **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)** | ⭐ 13.2k | [#3736](https://github.com/The-PR-Agent/pr-agent/pull/3736) | Prepared and normalized outgoing comment bodies in AWS CodeCommit provider before calling `publish_code_suggestions` to prevent AWS API payload rejection. |
+| **[huggingface/accelerate](https://github.com/huggingface/accelerate)** | ⭐ 9.9k | [#4296](https://github.com/huggingface/accelerate/pull/4296) | Fixed a critical checkpoint resumption regression where `skip_first_batches` dropped `drop_last`, `non_blocking`, `slice_fn`, and `mesh` parameters during distributed DataLoader reconstitution. |
+| **[Agenta-AI/agenta](https://github.com/Agenta-AI/agenta)** | ⭐ 4.8k | [#5377](https://github.com/Agenta-AI/agenta/pull/5377) | Fixed logging keyword argument typo (`exc_infp` → `exc_info`) in authentication service that swallowed exception stack traces during auto-join failures. |
+| **[taylorwilsdon/google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp)** | ⭐ 3.3k | [#1190](https://github.com/taylorwilsdon/google_workspace_mcp/pull/1190) | Allowed Google Chat `send_message` MCP tool to send plain text messages without triggering strict union schema validation errors on unused optional fields. |
+| **[taylorwilsdon/google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp)** | ⭐ 3.3k | [#1189](https://github.com/taylorwilsdon/google_workspace_mcp/pull/1189) | Fixed Google Forms tool creation by mapping title to `documentTitle` and applying form descriptions through subsequent `batchUpdate` calls. |
+| **[taylorwilsdon/google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp)** | ⭐ 3.3k | [#1155](https://github.com/taylorwilsdon/google_workspace_mcp/pull/1155) | Normalized input attendee dictionaries into valid Google Calendar API v3 structures, preventing `400 Bad Request` exceptions on event creation. |
+| **[pydantic/pydantic-settings](https://github.com/pydantic/pydantic-settings)** | ⭐ 1.5k | [#982](https://github.com/pydantic/pydantic-settings/pull/982) | Resolved platform-specific static type checking error on Windows (`mypy --platform win32`) by safely guarding `Path.is_mount` attribute resolution. |
+| **[qdrant/qdrant-client](https://github.com/qdrant/qdrant-client)** | ⭐ 1.4k | [#1493](https://github.com/qdrant/qdrant-client/pull/1493) | Enforced `UpdateMode` semantics in Qdrant Local client batch updates and prevented operations on deleted points from reviving ghost points. |
+| **[Lightning-AI/litData](https://github.com/Lightning-AI/litData)** | ⭐ 615 | [#928](https://github.com/Lightning-AI/litData/pull/928) | Fixed streaming dataset checkpoint state synchronization by resetting wrapper sample and cycle counters upon `reset_state_dict`. |
+
+*Explore all 46 open-source pull requests across 21 repositories on my [Portfolio](https://portifolio-fawn-pi-85.vercel.app/open-source).*
+
+---
+
 ### Projects
 
 **[EnterpriseRAG](https://github.com/truecallerabreham/Enterprise-RAG-For-teams)** Cross-repository code intelligence for engineering teams. Index repositories, retrieve relevant symbols with hybrid search + graph expansion, rerank evidence, and return answers with validated source citations. `Python` `FastAPI` `LangGraph` `Tree-sitter` `Qdrant` `BM25` `Neo4j` `RAG`
