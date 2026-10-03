@@ -22,6 +22,15 @@
   <img height="165" src="https://streak-stats.demolab.com/?user=truecallerabreham&theme=github-dark-blue&hide_border=true" alt="Contribution streak"/>
 </p>
 
+I focus on:
+- LLM agents and agent frameworks
+- RAG and retrieval systems
+- LLM evaluation and observability
+- MCP and tool-use infrastructure
+- Multimodal AI
+- Efficient language models and inference.
+- occasinally i build the tools that i use from scratch.(forexample redis from scratch , docker and some llms architecture)
+
 ---
 
 ### Open Source Contributions
@@ -136,12 +145,9 @@ Investigating small on-device language models for contextual next-word and phras
 ![FastAPI](https://img.shields.io/badge/FastAPI-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1a1a1a?style=for-the-badge)
 ![LangChain](https://img.shields.io/badge/LangChain-1a1a1a?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-1a1a1a?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-1a1a1a?style=for-the-badge)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-1a1a1a?style=for-the-badge&logo=huggingface&logoColor=white)
 ![Transformers](https://img.shields.io/badge/Transformers-1a1a1a?style=for-the-badge)
 ![MCP](https://img.shields.io/badge/MCP-1a1a1a?style=for-the-badge)
-![Groq](https://img.shields.io/badge/Groq-1a1a1a?style=for-the-badge)
 ![LangSmith](https://img.shields.io/badge/LangSmith-1a1a1a?style=for-the-badge)
 ![Pydantic](https://img.shields.io/badge/Pydantic-1a1a1a?style=for-the-badge&logo=pydantic&logoColor=white)
 
