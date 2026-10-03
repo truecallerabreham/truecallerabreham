@@ -10,55 +10,43 @@
 
 ## Hey, I'm Abreham Melese 👋
 
-**AI & LLM Systems Engineer** · Agents · RAG · Observability · MCP Infrastructure · Multimodal AI · Small Language Models
+**AI & LLM Systems Engineer** · Agent Systems · RAG · Evaluation & Observability · MCP Infrastructure · Multimodal AI · Efficient Inference
 
-I build AI systems that work beyond the demo — retrieval and agent orchestration, evaluation, observability, tool interfaces, and developer workflows.
-
-**I focus on**
-- LLM agents and agent frameworks
-- RAG and retrieval systems
-- LLM evaluation and observability
-- MCP and tool-use infrastructure
-- Multimodal AI
-- Efficient language models and inference
-- Occasionally building the tools I use from scratch — Redis, Docker, and parts of LLM architecture
+- **11 merged upstream PRs** across tier-1 AI, ML, and agent ecosystems — fixing distributed checkpoint resumption in **Hugging Face Accelerate**, CLI serialization & Windows typing in **Pydantic**, subagent sandbox isolation in **Raven**, batch update consistency in **Qdrant**, MCP server tools in **Google Workspace MCP**, dataset streaming in **Lightning AI**, and auth reliability in **Agenta**.
+- Merged per repository: Google Workspace MCP (3), pydantic-settings (2), accelerate (1), pr-agent (1), Raven (1), agenta (1), qdrant-client (1), litData (1).
+- Selected public projects led by **EnterpriseRAG**, **SmartGuard**, **LLM Observability Dashboard**, and **Arc Canvas**.
 
 <p align="center">
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=truecallerabreham&theme=github_dark" alt="GitHub stats"/>
   <img height="165" src="https://streak-stats.demolab.com/?user=truecallerabreham&theme=github-dark-blue&hide_border=true" alt="Contribution streak"/>
 </p>
 
-- **11 merged upstream pull requests** in production frameworks — Hugging Face Accelerate, Pydantic, Raven, pr-agent, Google Workspace MCP, Qdrant, Agenta, and Lightning AI.
-- Builder of end-to-end production AI systems: **EnterpriseRAG**, **SmartGuard**, **LLM Observability Dashboard**, and **Arc Canvas**.
-
 ---
 
 ### Open Source Contributions
 
-**11 merged pull requests** across **8 upstream frameworks** — one row per pull request, every fix below merged and running in production.
+| Repository | Pull Request | Focus | What it fixes |
+|---------|:---:|--------|-----------------|
+| **[huggingface/accelerate](https://github.com/huggingface/accelerate)** | [#4296](https://github.com/huggingface/accelerate/pull/4296) | Distributed training & DataLoader checkpoint restoration | Fixed checkpoint resumption regression where `skip_first_batches` dropped `drop_last`, `non_blocking`, `slice_fn`, and `mesh` parameters during distributed DataLoader reconstitution. |
+| **[pydantic/pydantic-settings](https://github.com/pydantic/pydantic-settings)** | [#992](https://github.com/pydantic/pydantic-settings/pull/992) | CLI argument serialization | Fixed `IndexError: list index out of range` in `CliApp.serialize` when serializing settings models that capture unknown command-line arguments. |
+| **[pydantic/pydantic-settings](https://github.com/pydantic/pydantic-settings)** | [#982](https://github.com/pydantic/pydantic-settings/pull/982) | Cross-platform static typing | Resolved platform-specific static type checking error on Windows (`mypy --platform win32`) by safely guarding `Path.is_mount` attribute resolution. |
+| **[EverMind-AI/Raven](https://github.com/EverMind-AI/Raven)** | [#827](https://github.com/EverMind-AI/Raven/pull/827) | Multi-agent sandbox isolation and tool boundaries | Forwards `tools.sandbox` and `tools.restrict_to_workspace` to playbook `SubagentManager` instances and shares `ProviderPool` across subagent stints for reliable sandbox isolation. |
+| **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)** | [#3736](https://github.com/The-PR-Agent/pr-agent/pull/3736) | Automated code review & VCS provider payloads | Normalizes outgoing comment bodies in AWS CodeCommit provider before calling `publish_code_suggestions` to prevent AWS API payload rejection. |
+| **[taylorwilsdon/google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp)** | [#1190](https://github.com/taylorwilsdon/google_workspace_mcp/pull/1190) | MCP tool schemas for Google Workspace | Allows Google Chat `send_message` MCP tool to send plain text messages without triggering strict union schema validation errors on unused optional fields. |
+| **[taylorwilsdon/google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp)** | [#1189](https://github.com/taylorwilsdon/google_workspace_mcp/pull/1189) | MCP tool schemas for Google Workspace | Fixed Google Forms tool creation by mapping title to `documentTitle` and applying form descriptions through subsequent `batchUpdate` calls. |
+| **[taylorwilsdon/google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp)** | [#1155](https://github.com/taylorwilsdon/google_workspace_mcp/pull/1155) | MCP tool schemas for Google Workspace | Normalized attendee dictionaries into valid Google Calendar API v3 structures, preventing `400 Bad Request` exceptions on event creation. |
+| **[qdrant/qdrant-client](https://github.com/qdrant/qdrant-client)** | [#1493](https://github.com/qdrant/qdrant-client/pull/1493) | Local vector store consistency and point update semantics | Enforced `UpdateMode` semantics in Qdrant Local client batch updates and prevented operations on deleted points from reviving ghost points. |
+| **[Agenta-AI/agenta](https://github.com/Agenta-AI/agenta)** | [#5377](https://github.com/Agenta-AI/agenta/pull/5377) | Backend authentication and error telemetry logging | Fixed logging keyword argument typo (`exc_infp` → `exc_info`) in auth service that swallowed exception tracebacks during organization auto-join failures. |
+| **[Lightning-AI/litData](https://github.com/Lightning-AI/litData)** | [#928](https://github.com/Lightning-AI/litData/pull/928) | Streaming dataset state tracking and checkpoint resumption | Fixed streaming dataset checkpoint state synchronization by resetting wrapper sample and cycle counters upon `reset_state_dict`. |
 
-| Repository | Stars | Pull Request | Area | What it fixes |
-| :--- | :---: | :---: | :--- | :--- |
-| **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)** | ⭐ 13.2k | [#3736](https://github.com/The-PR-Agent/pr-agent/pull/3736) | Developer Tools & MCP | Normalizes outgoing comment bodies in the AWS CodeCommit provider before calling `publish_code_suggestions`, preventing AWS API payload rejection. |
-| **[huggingface/accelerate](https://github.com/huggingface/accelerate)** | ⭐ 9.9k | [#4296](https://github.com/huggingface/accelerate/pull/4296) | AI & ML Infrastructure | Fixed a checkpoint resumption regression where `skip_first_batches` dropped `drop_last`, `non_blocking`, `slice_fn`, and `mesh` parameters upon dataloader reconstitution. |
-| **[EverMind-AI/Raven](https://github.com/EverMind-AI/Raven)** | ⭐ 4.9k | [#827](https://github.com/EverMind-AI/Raven/pull/827) | Agent Frameworks & Sandbox | Forwards `tools.sandbox` and `tools.restrict_to_workspace` to playbook `SubagentManager` instances and shares `ProviderPool` across subagent stints for reliable sandbox isolation. |
-| **[Agenta-AI/agenta](https://github.com/Agenta-AI/agenta)** | ⭐ 4.8k | [#5377](https://github.com/Agenta-AI/agenta/pull/5377) | AI & ML Infrastructure | Fixed logging keyword argument typo (`exc_infp` → `exc_info`) in the auth service that swallowed exception tracebacks during organization auto-join failures. |
-| **[taylorwilsdon/google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp)** | ⭐ 3.3k | [#1190](https://github.com/taylorwilsdon/google_workspace_mcp/pull/1190) | Developer Tools & MCP | Allows the Google Chat `send_message` MCP tool to send plain text without tripping strict union schema validation on unused optional fields. |
-| **[taylorwilsdon/google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp)** | ⭐ 3.3k | [#1189](https://github.com/taylorwilsdon/google_workspace_mcp/pull/1189) | Developer Tools & MCP | Fixed Google Forms tool creation by mapping `title` to `documentTitle` and applying form descriptions through subsequent `batchUpdate` calls. |
-| **[taylorwilsdon/google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp)** | ⭐ 3.3k | [#1155](https://github.com/taylorwilsdon/google_workspace_mcp/pull/1155) | Developer Tools & MCP | Normalized attendee dictionaries into valid Google Calendar API v3 structures, preventing `400 Bad Request` exceptions on event creation. |
-| **[pydantic/pydantic-settings](https://github.com/pydantic/pydantic-settings)** | ⭐ 1.5k | [#992](https://github.com/pydantic/pydantic-settings/pull/992) | Developer Tools & MCP | Fixed `IndexError: list index out of range` in `CliApp.serialize` when serializing settings models that capture unknown command-line arguments. |
-| **[pydantic/pydantic-settings](https://github.com/pydantic/pydantic-settings)** | ⭐ 1.5k | [#982](https://github.com/pydantic/pydantic-settings/pull/982) | Developer Tools & MCP | Resolved platform-specific static type checking failure on Windows (`mypy --platform win32`) by safely guarding `Path.is_mount` attribute resolution. |
-| **[qdrant/qdrant-client](https://github.com/qdrant/qdrant-client)** | ⭐ 1.4k | [#1493](https://github.com/qdrant/qdrant-client/pull/1493) | Vector DB & RAG | Enforced `UpdateMode` semantics in Qdrant Local client batch updates and prevented operations on deleted points from reviving ghost points. |
-| **[Lightning-AI/litData](https://github.com/Lightning-AI/litData)** | ⭐ 615 | [#928](https://github.com/Lightning-AI/litData/pull/928) | Data & Streaming | Fixed streaming dataset checkpoint state synchronization by resetting wrapper sample and cycle counters upon `reset_state_dict`. |
-
-*More contributions, experiments, and write-ups → [Portfolio](https://portifolio-fawn-pi-85.vercel.app/open-source).*
+*Explore my open-source pull requests on my [Portfolio](https://portifolio-fawn-pi-85.vercel.app/open-source).*
 
 ---
 
 ### Featured Projects
 
-| Project | Stars / Status | What it is |
-|---------|:--------------:|------------|
+| Project | Status | What it is |
+|---------|:------:|------------|
 | [EnterpriseRAG](https://github.com/truecallerabreham/Enterprise-RAG-For-teams) | Active | Cross-repository code intelligence for engineering teams: hybrid search + graph expansion, cross-encoder reranking, and citation validation loop. `Python` `FastAPI` `LangGraph` `Tree-sitter` `Qdrant` `BM25` `Neo4j` `RAG` |
 | [SmartGuard](https://github.com/truecallerabreham/Smart_cctv) | Active | Multimodal incident-auditing agent for transit CCTV footage: frame-level VLM captioning, semantic video search, FastMCP tool integration, and ffmpeg clip extraction. `Multimodal AI` `VLM` `MCP` `FastAPI` `Pixeltable` `Opik` `ffmpeg` `React` |
 | [LLM Observability & Eval Dashboard](https://github.com/truecallerabreham/llm-observability-dashboard) | Active | Self-hosted observability & eval stack for deployed LLM apps: OpenTelemetry traces, DeepEval/RAGAS evaluation scores, ClickHouse metrics, and operational alerts. `OpenTelemetry` `DeepEval` `RAGAS` `ClickHouse` `Prometheus` `Next.js` |
@@ -90,7 +78,7 @@ I build AI systems that work beyond the demo — retrieval and agent orchestrati
 ### Research in Progress
 
 **[LLM-Powered Android Keyboard](https://developer.android.com/)** *(Active Prototyping)*  
-Small on-device language models for contextual next-word and phrase prediction under strict mobile compute, latency, and thermal budgets.
+Investigating small on-device language models for contextual next-word and phrase prediction under strict mobile compute, latency, and thermal budgets.
 
 ---
 
