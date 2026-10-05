@@ -12,7 +12,7 @@
 
 **AI & LLM Systems Engineer** · Agent Systems · RAG · Evaluation & Observability · MCP Infrastructure · Multimodal AI · Efficient Inference
 
-- **12 merged upstream PRs** across tier-1 AI, ML, and agent ecosystems — fixing distributed checkpoint resumption in **Hugging Face Accelerate**, CLI serialization & Windows typing in **Pydantic**, subagent sandbox isolation & Boxlite network specs in **Raven**, batch update consistency in **Qdrant**, MCP server tools in **Google Workspace MCP**, dataset streaming in **Lightning AI**, and auth reliability in **Agenta**.
+- **12 merged upstream PRs** across tier-1 AI, ML, and agent ecosystems — fixing distributed checkpoint resumption in **Hugging Face Accelerate**, hardening CLI serialization for dynamic agent schemas and resolving critical Windows runtime typing bugs **Pydantic** subagent sandbox isolation & Boxlite network specs in **Raven**, batch update consistency in **Qdrant**, MCP server tools in **Google Workspace MCP**, dataset streaming in **Lightning AI**, and auth reliability in **Agenta**.
 - Merged per repository: Google Workspace MCP (3), pydantic-settings (2), Raven (2), accelerate (1), pr-agent (1), agenta (1), qdrant-client (1), litData (1).
 - Selected public projects led by **EnterpriseRAG**, **SmartGuard**, **LLM Observability Dashboard**, and **Arc Canvas**.
 
