@@ -1,7 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0b2027,55:16323b,100:1f4550&height=110&text=Abreham%20Melese&fontSize=34&fontColor=e6edf3&desc=AI%20%26%20LLM%20Systems%20Engineer&descSize=16&descColor=9fb3bd&descAlignY=75" alt="Abreham Melese" width="100%"/>
-</p>
-
+ABREHAM MELESE
 <p align="center">
   <a href="https://www.linkedin.com/in/abrehammelese/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://portifolio-fawn-pi-85.vercel.app"><img src="https://img.shields.io/badge/Portfolio_Website-1f4550?style=for-the-badge&logoColor=white" alt="Portfolio"/></a>
@@ -10,7 +8,7 @@
 
 ## Hey, I'm Abreham Melese 👋
 
-**AI & LLM Systems Engineer** · Agent Systems · RAG · Evaluation & Observability · MCP Infrastructure · Multimodal AI · Efficient Inference
+**AI & LLM Systems Engineer** · AI ENGINEER , AI AGENTS , RAG SYSTEMS , FINETUINING , DEPLOYING LLMS IN TO PRODUCTION , AND PASSIONATE ABOUT INFERENCE 
 
 - **12 merged upstream PRs** across tier-1 AI, ML, and agent ecosystems — fixing distributed checkpoint resumption in **Hugging Face Accelerate**, hardening CLI serialization for dynamic agent schemas and resolving critical Windows runtime typing bugs **Pydantic** subagent sandbox isolation & Boxlite network specs in **Raven**, batch update consistency in **Qdrant**, MCP server tools in **Google Workspace MCP**, dataset streaming in **Lightning AI**, and auth reliability in **Agenta**.
 - Merged per repository: Google Workspace MCP (3), pydantic-settings (2), Raven (2), accelerate (1), pr-agent (1), agenta (1), qdrant-client (1), litData (1).
