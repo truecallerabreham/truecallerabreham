@@ -11,7 +11,7 @@ ABREHAM MELESE
 **AI & LLM Systems Engineer** · AI Agents · RAG Systems · LLM Applications · AI Backend Engineering · Open Source  · (Passionate about LLM Inference hobby)
 - **12 merged upstream PRs** across tier-1 AI, ML, and agent ecosystems — fixing distributed checkpoint resumption in **Hugging Face Accelerate**, hardening CLI serialization for dynamic agent schemas and resolving critical Windows runtime typing bugs **Pydantic** subagent sandbox isolation & Boxlite network specs in **Raven**, batch update consistency in **Qdrant**, MCP server tools in **Google Workspace MCP**, dataset streaming in **Lightning AI**, and auth reliability in **Agenta**.
 - Merged per repository: Google Workspace MCP (3), pydantic-settings (2), Raven (2), accelerate (1), pr-agent (1), agenta (1), qdrant-client (1), litData (1).
-- Selected public projects led by **EnterpriseRAG**, **SmartGuard**, **LLM Observability Dashboard**, and **Arc Canvas**.
+- Selected public projects led by **[EnterpriseRAG](https://github.com/truecallerabreham/Enterprise-RAG-For-teams)** ([Demo Video](https://cap.so/s/901ps3jsw09s8x9)), **[SmartGuard](https://github.com/truecallerabreham/Smart_cctv)** ([Demo Video](https://cap.so/s/ryg3x6qx2r187yk)), **LLM Observability Dashboard**, and **Arc Canvas**.
 
 <p align="center">
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=truecallerabreham&theme=github_dark" alt="GitHub stats"/>
@@ -66,31 +66,31 @@ ABREHAM MELESE
 
 ### Featured Projects
 
-| Project | Status | What it is |
-|---------|:------:|------------|
-| [EnterpriseRAG](https://github.com/truecallerabreham/Enterprise-RAG-For-teams) | Active | Cross-repository code intelligence for engineering teams: hybrid search + graph expansion, cross-encoder reranking, and citation validation loop. `Python` `FastAPI` `LangGraph` `Tree-sitter` `Qdrant` `BM25` `Neo4j` `RAG` |
-| [SmartGuard](https://github.com/truecallerabreham/Smart_cctv) | Active | Multimodal incident-auditing agent for transit CCTV footage: frame-level VLM captioning, semantic video search, FastMCP tool integration, and ffmpeg clip extraction. `Multimodal AI` `VLM` `MCP` `FastAPI` `Pixeltable` `Opik` `ffmpeg` `React` |
-| [LLM Observability & Eval Dashboard](https://github.com/truecallerabreham/llm-observability-dashboard) | Active | Self-hosted observability & eval stack for deployed LLM apps: OpenTelemetry traces, DeepEval/RAGAS evaluation scores, ClickHouse metrics, and operational alerts. `OpenTelemetry` `DeepEval` `RAGAS` `ClickHouse` `Prometheus` `Next.js` |
-| [Arc - Architecture Canvas](https://github.com/truecallerabreham/Vibe) | Active | Interactive developer tool that maps system ideas to real open-source architectures, renders file trees into interactive diagrams, and facilitates architecture review before coding. `TypeScript` `React Flow` `CLI` `GitHub Search` `LLM` |
-| [Clipagent](https://github.com/truecallerabreham/Clipagent) | Active | Multimodal video search & clip extraction tool: natural-language queries, semantic similarity over frames, and automated clip segmentation. `FastMCP` `Pixeltable` `FastAPI` `React` `Docker` |
-| [Telecall](https://github.com/truecallerabreham/Telecall) | Active | AI voice mobile-carrier assistant for automated call-center operations: LangGraph + Groq + FastRTC + Twilio + Qdrant for real-time speech and support. `LangGraph` `Groq` `FastRTC` `Twilio` `Qdrant` `STT` `TTS` |
+| Project | Demo | Status | What it is |
+|---------|:----:|:------:|------------|
+| [EnterpriseRAG](https://github.com/truecallerabreham/Enterprise-RAG-For-teams) | [▶ Video](https://cap.so/s/901ps3jsw09s8x9) | Active | Cross-repository code intelligence for engineering teams: hybrid search + graph expansion, cross-encoder reranking, and citation validation loop. `Python` `FastAPI` `LangGraph` `Tree-sitter` `Qdrant` `BM25` `Neo4j` `RAG` |
+| [SmartGuard](https://github.com/truecallerabreham/Smart_cctv) | [▶ Video](https://cap.so/s/ryg3x6qx2r187yk) | Active | Multimodal incident-auditing agent for transit CCTV footage: frame-level VLM captioning, semantic video search, FastMCP tool integration, and ffmpeg clip extraction. `Multimodal AI` `VLM` `MCP` `FastAPI` `Pixeltable` `Opik` `ffmpeg` `React` |
+| [LLM Observability & Eval Dashboard](https://github.com/truecallerabreham/llm-observability-dashboard) | — | Active | Self-hosted observability & eval stack for deployed LLM apps: OpenTelemetry traces, DeepEval/RAGAS evaluation scores, ClickHouse metrics, and operational alerts. `OpenTelemetry` `DeepEval` `RAGAS` `ClickHouse` `Prometheus` `Next.js` |
+| [Arc - Architecture Canvas](https://github.com/truecallerabreham/Vibe) | — | Active | Interactive developer tool that maps system ideas to real open-source architectures, renders file trees into interactive diagrams, and facilitates architecture review before coding. `TypeScript` `React Flow` `CLI` `GitHub Search` `LLM` |
+| [Clipagent](https://github.com/truecallerabreham/Clipagent) | — | Active | Multimodal video search & clip extraction tool: natural-language queries, semantic similarity over frames, and automated clip segmentation. `FastMCP` `Pixeltable` `FastAPI` `React` `Docker` |
+| [Telecall](https://github.com/truecallerabreham/Telecall) | — | Active | AI voice mobile-carrier assistant for automated call-center operations: LangGraph + Groq + FastRTC + Twilio + Qdrant for real-time speech and support. `LangGraph` `Groq` `FastRTC` `Twilio` `Qdrant` `STT` `TTS` |
 
 <details>
 <summary>All Projects (11)</summary>
 
-| Area | Project | Tech Stack | Notes |
-|------|---------|------------|-------|
-| Code Intelligence / RAG | [EnterpriseRAG](https://github.com/truecallerabreham/Enterprise-RAG-For-teams) | Python, FastAPI, LangGraph, Qdrant, Neo4j | Cross-repo code retrieval with hybrid search & graph-based code structure extraction. |
-| Multimodal AI / Video | [SmartGuard](https://github.com/truecallerabreham/Smart_cctv) | Pixeltable, FastMCP, VLM, FastAPI, React | Automated CCTV incident auditing and video evidence extraction. |
-| Observability & Evals | [LLM Observability Dashboard](https://github.com/truecallerabreham/llm-observability-dashboard) | OpenTelemetry, DeepEval, ClickHouse, Next.js | Production traces, drift detection, and evaluation dashboards for LLM apps. |
-| System Architecture | [Arc - Architecture Canvas](https://github.com/truecallerabreham/Vibe) | TypeScript, React Flow, GitHub API, LLM | Interactive system design and codebase architecture canvas. |
-| Multimodal Video | [Clipagent](https://github.com/truecallerabreham/Clipagent) | FastMCP, Pixeltable, FastAPI, React, Docker | Video understanding, semantic search, and clip extraction pipeline. |
-| Real-time Voice AI | [Telecall](https://github.com/truecallerabreham/Telecall) | LangGraph, Groq, FastRTC, Twilio, Qdrant | End-to-end low-latency voice agent for telecom customer support. |
-| RAG Research | [Advanced RAG From Scratch](https://github.com/truecallerabreham/Advanced_RAG_From_Scratch.) | Python, BM25, Dense Embeddings, Multimodal | Advanced RAG implementations from foundational dense retrieval to multimodal search. |
-| Agent Framework | [Forla](https://github.com/truecallerabreham/FLORA) | Python, AsyncIO, Multi-Agent | Async-first framework for deterministic agent workflows and transparent execution loops. |
-| Infrastructure / MCP | [DigitalOcean MCP Server](https://github.com/truecallerabreham/mcp-server-digitalocean) | TypeScript, MCP Protocol, DigitalOcean API | Manage Droplets, databases, domains, and cloud resources via structured tool calls. |
-| Developer Ergonomics | [Context Visualizer](https://github.com/truecallerabreham/preflight_contex) | TypeScript, Context Engineering | Local proxy visualizing coding agent prompts, token costs, and context trimming. |
-| Classical MLOps | [Fraud Detection System](https://github.com/truecallerabreham/fraud_detection_system) | Python, MLflow, Docker, GitHub Actions | End-to-end ML classification pipeline with automated testing and containerized CI/CD. |
+| Area | Project | Demo | Tech Stack | Notes |
+|------|---------|:----:|------------|-------|
+| Code Intelligence / RAG | [EnterpriseRAG](https://github.com/truecallerabreham/Enterprise-RAG-For-teams) | [▶ Video](https://cap.so/s/901ps3jsw09s8x9) | Python, FastAPI, LangGraph, Qdrant, Neo4j | Cross-repo code retrieval with hybrid search & graph-based code structure extraction. |
+| Multimodal AI / Video | [SmartGuard](https://github.com/truecallerabreham/Smart_cctv) | [▶ Video](https://cap.so/s/ryg3x6qx2r187yk) | Pixeltable, FastMCP, VLM, FastAPI, React | Automated CCTV incident auditing and video evidence extraction. |
+| Observability & Evals | [LLM Observability Dashboard](https://github.com/truecallerabreham/llm-observability-dashboard) | — | OpenTelemetry, DeepEval, ClickHouse, Next.js | Production traces, drift detection, and evaluation dashboards for LLM apps. |
+| System Architecture | [Arc - Architecture Canvas](https://github.com/truecallerabreham/Vibe) | — | TypeScript, React Flow, GitHub API, LLM | Interactive system design and codebase architecture canvas. |
+| Multimodal Video | [Clipagent](https://github.com/truecallerabreham/Clipagent) | — | FastMCP, Pixeltable, FastAPI, React, Docker | Video understanding, semantic search, and clip extraction pipeline. |
+| Real-time Voice AI | [Telecall](https://github.com/truecallerabreham/Telecall) | — | LangGraph, Groq, FastRTC, Twilio, Qdrant | End-to-end low-latency voice agent for telecom customer support. |
+| RAG Research | [Advanced RAG From Scratch](https://github.com/truecallerabreham/Advanced_RAG_From_Scratch.) | — | Python, BM25, Dense Embeddings, Multimodal | Advanced RAG implementations from foundational dense retrieval to multimodal search. |
+| Agent Framework | [Forla](https://github.com/truecallerabreham/FLORA) | — | Python, AsyncIO, Multi-Agent | Async-first framework for deterministic agent workflows and transparent execution loops. |
+| Infrastructure / MCP | [DigitalOcean MCP Server](https://github.com/truecallerabreham/mcp-server-digitalocean) | — | TypeScript, MCP Protocol, DigitalOcean API | Manage Droplets, databases, domains, and cloud resources via structured tool calls. |
+| Developer Ergonomics | [Context Visualizer](https://github.com/truecallerabreham/preflight_contex) | — | TypeScript, Context Engineering | Local proxy visualizing coding agent prompts, token costs, and context trimming. |
+| Classical MLOps | [Fraud Detection System](https://github.com/truecallerabreham/fraud_detection_system) | — | Python, MLflow, Docker, GitHub Actions | End-to-end ML classification pipeline with automated testing and containerized CI/CD. |
 
 </details>
 
