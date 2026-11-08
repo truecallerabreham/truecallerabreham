@@ -2,7 +2,7 @@
 
 ## Hey, I'm Abreham Melese 👋
 
-**AI & LLM Systems Engineer** · AI Agents · RAG Systems · LLM Applications · AI Backend Engineering · Open Source  · (Passionate about LLM Inference hobby)
+**AI & LLM Systems Engineer** 
 - **12 merged upstream PRs** across tier-1 AI, ML, and agent ecosystems — fixing distributed checkpoint resumption in **Hugging Face Accelerate**, hardening CLI serialization for dynamic agent schemas and resolving critical Windows runtime typing bugs **Pydantic** subagent sandbox isolation & Boxlite network specs in **Raven**, batch update consistency in **Qdrant**, MCP server tools in **Google Workspace MCP**, dataset streaming in **Lightning AI**, and auth reliability in **Agenta**.
 - Merged per repository: Google Workspace MCP (3), pydantic-settings (2), Raven (2), accelerate (1), pr-agent (1), agenta (1), qdrant-client (1), litData (1).
 - Selected public projects led by **[EnterpriseRAG](https://github.com/truecallerabreham/Enterprise-RAG-For-teams)** ([Demo Video](https://cap.so/s/901ps3jsw09s8x9)), **[SmartGuard](https://github.com/truecallerabreham/Smart_cctv)** ([Demo Video](https://cap.so/s/ryg3x6qx2r187yk)), **LLM Observability Dashboard**, and **Arc Canvas**.
