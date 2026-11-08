@@ -21,7 +21,7 @@
 
 ---
 
-<details> <summary></summary>### Open Source Contributions</summary>###
+<details> <summary>### Open Source Contributions</summary>###
 
 | Repository | Pull Request | Focus | What it fixes |
 |---------|:---:|--------|-----------------|
