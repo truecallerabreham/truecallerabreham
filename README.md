@@ -21,7 +21,7 @@
 
 ---
 
-### Open Source Contributions
+<details> <summary></summary>### Open Source Contributions</summary>###
 
 | Repository | Pull Request | Focus | What it fixes |
 |---------|:---:|--------|-----------------|
@@ -36,7 +36,7 @@
 | **[pydantic/pydantic-settings](https://github.com/pydantic/pydantic-settings)** <small>1.5k&#9733;</small> | [#992](https://github.com/pydantic/pydantic-settings/pull/992) | CLI argument serialization | Fixed `IndexError: list index out of range` in `CliApp.serialize` when serializing settings models that capture unknown command-line arguments. |
 | **[pydantic/pydantic-settings](https://github.com/pydantic/pydantic-settings)** <small>1.5k&#9733;</small> | [#982](https://github.com/pydantic/pydantic-settings/pull/982) | Cross-platform static typing | Resolved platform-specific static type checking error on Windows (`mypy --platform win32`) by safely guarding `Path.is_mount` attribute resolution. |
 | **[qdrant/qdrant-client](https://github.com/qdrant/qdrant-client)** <small>1.4k&#9733;</small> | [#1493](https://github.com/qdrant/qdrant-client/pull/1493) | Local vector store consistency & update semantics | Enforced `UpdateMode` semantics in Qdrant Local client batch updates and prevented operations on deleted points from reviving ghost points. |
-| **[Lightning-AI/litData](https://github.com/Lightning-AI/litData)** <small>615&#9733;</small> | [#928](https://github.com/Lightning-AI/litData/pull/928) | Streaming dataset checkpoint state tracking | Fixed streaming dataset checkpoint state synchronization by resetting wrapper sample and cycle counters upon `reset_state_dict`. |
+| **[Lightning-AI/litData](https://github.com/Lightning-AI/litData)** <small>615&#9733;</small> | [#928](https://github.com/Lightning-AI/litData/pull/928) | Streaming dataset checkpoint state tracking | Fixed streaming dataset checkpoint state synchronization by resetting wrapper sample and cycle counters upon `reset_state_dict`. |</details>
 
 <details>
 <summary>Active Pull Requests Under Upstream Review (15)</summary>
